@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 import math
 import time
 import pickle
-# import sys
-# import os
-# sys.path.append(os.path.abspath('/home/hangktt/rrt_ws/SPSO_python'))
 from MyCost import my_cost
 from CreateModel import create_model
 from CreateRandomSolution import create_random_solution
