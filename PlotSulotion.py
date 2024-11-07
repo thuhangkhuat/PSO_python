@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from scipy.interpolate import CubicSpline
 def plot_solution(sol, model,i):
-    # Plot 3D view
+    # Plot 2D view
     fig = plt.figure()
     ax = fig.add_subplot(111)
     ax.set_xlim(model['xmin'], model['xmax'])

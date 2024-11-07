@@ -7,7 +7,7 @@ import math
 from MyCost import my_cost
 from CreateModel import create_model
 from CreateRandomSolution import create_random_solution
-from SphericalToCart import polar_to_cart
+from PolarToCart import polar_to_cart
 from PlotSulotion import plot_solution
 
 # PSO parameters
